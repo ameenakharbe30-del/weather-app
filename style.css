@@ -104,3 +104,50 @@ body{
 .weather{
     display: none;
 }
+
+
+
+@media only screen and (max-width: 600px){
+
+    .card{
+        width: 90%;
+        padding: 30px 20px;
+    }
+
+    .search input{
+        height: 45px;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    .search button{
+        width: 45px;
+        height: 45px;
+    }
+
+    .search button img{
+        width: 14px;
+    }
+
+    .weather-icon{
+        width: 120px;
+    }
+
+    .weather h1{
+        font-size: 50px;
+    }
+
+    .weather h2{
+        font-size: 30px;
+    }
+
+    .details{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .col{
+        width: 100%;
+    }
+}
